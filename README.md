@@ -1,1 +1,3 @@
 # homework_2
+
+In the following homework assignment I've included three separate html pages that are linked via a bootstrap aquired navbar. The pages are for the linking of a website consisting of three separate content spaces: an index page consisting of an "about me" section, a "portfolio" section consisting of an assortment of personal images, and a "contact" page consisting of a form through which a client can seek to reachout to an admin of sorts. There is also a style.css file for the spacing and styling of the contact form to make it fitted in regards to the sizing and background of the contact page. 

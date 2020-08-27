@@ -4,9 +4,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Specifying css so that the sizes of all the picture elements are uniform */
+      img {
+    float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+}
+    </style>
     <title>Document</title>
 </head>
 <body>
+  <!-- Bootstrap code for the navbar element with altered text in between the various class elements of the navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +35,24 @@
             </li>
           </ul>
         </div>
-      </nav>   
+      </nav>
+      <div class="container">
+        <div class="row">
+          <!-- Added images for the grid-based bootstrap content spaces -->
+          <div class="col-sm">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/42870008_10214735811522419_5409555238237503488_n.jpg?_nc_cat=102&_nc_sid=85a577&_nc_ohc=dEyl2ypfu1MAX-Q2K61&_nc_ht=scontent-iad3-1.xx&oh=731ddb8826e9689fcbbbca367ca33d9f&oe=5F6D3CA9" alt="Me">
+          </div>
+          <div class="col-sm">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/34266509_10213954311345403_4178046917424447488_n.jpg?_nc_cat=107&_nc_sid=7aed08&_nc_ohc=p9eg2hiyvrsAX-tsW5h&_nc_ht=scontent-iad3-1.xx&oh=f4927a188ece7274e8b2a9febaf2d264&oe=5F6AE78F" alt="Portrait of me">
+          </div>
+          <div class="col-sm">
+            <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/p720x720/327869_2513577992292_377023308_o.jpg?_nc_cat=106&_nc_sid=210fed&_nc_ohc=u_FzWiV_D_8AX8mu7Xr&_nc_ht=scontent-iad3-1.xx&tp=6&oh=eb1d6a9bda1aa82546840a84465ee3d9&oe=5F6B42ED" alt="Soccer image">
+          </div>
+          <div class="col-sm">
+              <img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/206249_1739101150855_6173596_n.jpg?_nc_cat=100&_nc_sid=210fed&_nc_ohc=ROlY1C1n0YEAX9ZFCUm&_nc_ht=scontent-iad3-1.xx&oh=ba9d641db370a503287f334f33930cd9&oe=5F6B5B8E" alt="Me playing guitar image">
+          </div>
+          </div>
+        </div>
+      </div>   
 </body>
 </html>

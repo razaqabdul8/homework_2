@@ -25,6 +25,19 @@
             </li>
           </ul>
         </div>
-      </nav>    
+      </nav>
+    <!--A div is produced for the styling of the header for the contact form-->
+    <div class="contact-title">
+      <h1>Contact Request Form</h1>
+    </div>
+    <!--A form query is produced and is designated the class and id of contact form-->
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+        <input type="submit" class="form-control" value="Send Message">
+      </form>
+    </div>
 </body>
 </html>
